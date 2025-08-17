@@ -1,0 +1,41 @@
+{
+    "root_output_folder": "output_qspr_run/Model-RFR_Descriptors-RDKit_IEType_DescSize-217-ZeroedNormMeanIE_v1/",
+    "output_directory": "output_qspr_run/Model-RFR_Descriptors-RDKit_IEType_DescSize-217-ZeroedNormMeanIE_v1/",
+    "source_compound_file": "C:/Users/mateo/Documents/autogrow4_project_sapper/AutoGrow4/initial_smiles_fixed.smi",
+
+    "number_of_processors": 1,
+    "model_path": "C:/Users/mateo/Documents/autogrow4_project_sapper/AutoGrow4/models/RFR_RDKitDescriptors_ZeroedNormMeanIE.pkl",
+
+    "FeaturizeToPredictionPipeline_Path": "C:/Users/mateo/Documents/autogrow4_project_sapper/AutoGrow4/FeaturizeToPredictionPipeline_RFR_RDKitDescriptors.py",
+    "FeaturizeToPredictionPipeline_ClassName": "FeaturizeToPredictionPipeline_RFR_RDKitDescriptors",
+
+    "num_of_smi_pass": 40,
+
+
+    "number_of_generations": 10,
+    "num_mutants_to_make": 80,
+
+
+
+    "number_of_crossovers_first_generation": 50,
+    "number_of_mutants_first_generation": 50,
+    "number_elitism_advance_from_previous_gen_first_generation": 100,
+    "diversity_seed_depreciation_per_gen": 0.1,
+    
+    "filter_source_compounds": false,
+
+    "rxn_library_variables": [
+        "all_rxns",
+        "autogrow/operators/mutation/smiles_click_chem/reaction_libraries/all_rxns/All_Rxns_rxn_library.json",
+        "autogrow/operators/mutation/smiles_click_chem/reaction_libraries/all_rxns/All_Rxns_functional_groups.json",
+        ""
+],
+"mol_dir": "autogrow/operators/mutation/smiles_click_chem/reaction_libraries/all_rxns/complementary_mol_dir"
+
+
+
+
+
+
+
+}
