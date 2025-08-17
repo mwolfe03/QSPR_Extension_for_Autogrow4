@@ -20,8 +20,6 @@ Your custom scoring class should inherit from:
 
 ---
 
----
-
 ## ⚙️ Dependencies
 
 Make sure you have the following installed:
